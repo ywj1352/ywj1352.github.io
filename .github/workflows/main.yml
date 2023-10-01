@@ -19,6 +19,8 @@
           # 拉取代码
           - name: Checkout
             uses: actions/checkout@v2
+            with:
+                ref: doc
           # 1、生成静态文件
           - name: Build
             run: npm i -g notablog && notablog generate .
