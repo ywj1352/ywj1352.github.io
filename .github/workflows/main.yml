@@ -29,6 +29,6 @@
             uses: JamesIves/github-pages-deploy-action@v4.2.5
             with:
               token: ${{ secrets.ACCESS_TOKEN }}
-              repository-name: humbornjo/humbornjo.github.io
+              repository-name: ywj1352/ywj1352.github.io
               BRANCH: master
               FOLDER: public
